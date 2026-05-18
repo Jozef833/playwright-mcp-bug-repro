@@ -1,5 +1,3 @@
-# Reproduction: MCP createUserDataDir writes to read-only PLAYWRIGHT_BROWSERS_PATH
-
 ```bash
 npm install
 npm run reproduce
