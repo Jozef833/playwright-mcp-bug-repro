@@ -1,0 +1,13 @@
+{
+  "name": "playwright-mcp-bug-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: MCP createUserDataDir writes to read-only PLAYWRIGHT_BROWSERS_PATH",
+  "scripts": {
+    "reproduce": "node reproduce.mjs"
+  },
+  "dependencies": {
+    "@playwright/mcp": "0.0.69"
+  }
+}
